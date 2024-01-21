@@ -1,0 +1,14 @@
+a=1
+b=1
+c =1
+
+
+a= int(  input("what is the 1st no.")  )
+b= int(  input("what is the 2nd no.")  )
+
+if (b==0):
+    print("not divisible because of 0 ")
+else:
+    c=float (a/b)
+    print("total= \n\n")
+    print(c)
