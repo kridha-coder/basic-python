@@ -1,0 +1,19 @@
+a=1
+b=1
+c =1
+
+
+a= int(  input("what is the 1st no.")  )
+b= int(  input("what is the 2nd no.")  )
+opearator1=(input("what is the opearator that needs to be used"))
+
+if(opearator1=='+'):
+    c=a+b
+if(opearator1=='-'):
+    c=a-b
+if(opearator1=='*'):
+    c=a*b
+if(opearator1=='/'):
+    c=a/b
+print("total= \n\n")
+print(c)
